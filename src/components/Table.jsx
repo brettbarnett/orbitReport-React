@@ -16,7 +16,7 @@ const Table = ({ sat }) => {
           return (
             <tr key={satellite.id}>
               <td>{satellite.name}</td>
-              <td>{satellite.type}</td>
+              <td>{satellite.type}   </td>
               <td>{satellite.launchDate}</td>
               <td>{satellite.operational ? "Active" : "Inactive"}</td>
             </tr>
